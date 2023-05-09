@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="2" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on myAccountTab[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[@title='My Account']]]]>
+    </line>
+    <line>
+      <![CDATA[Select my account options[[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@id='top-links']//li[contains(@class,'open')]/ul/li], [[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@id='top-links']//li[contains(@class,'open')]/ul/li]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter firstname[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-firstname]]]>
+    </line>
+    <line>
+      <![CDATA[Enter lastname[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-lastname]]]>
+    </line>
+    <line>
+      <![CDATA[Enter email[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-email]]]>
+    </line>
+    <line>
+      <![CDATA[Enter Telephone[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-telephone]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-password]]]>
+    </line>
+    <line>
+      <![CDATA[Enter confirm password[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-confirm]]]>
+    </line>
+    <line>
+      <![CDATA[Select subscription option[[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //fieldset[3]//input], [[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //fieldset[3]//input]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on privacy policy[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@class = 'buttons']//input[@name='agree']]]]>
+    </line>
+    <line>
+      <![CDATA[Click on continue button[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@class = 'buttons']//input[@value='Continue']]]]>
+    </line>
+    <line>
+      <![CDATA[Get account created text[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //h1[contains(text(),'Your Account Has Been Created!')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on continueButton[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[contains(text(),'Continue')]]]]>
+    </line>
+    <line>
+      <![CDATA[Click on myAccountTab[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[@title='My Account']]]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="11570" started-at="2023-05-08T15:03:17 BST" finished-at="2023-05-08T15:03:28 BST">
+    <groups>
+      <group name="regression">
+        <method signature="AccountRegisterPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.testsuite.AccountRegisterPageTest@5e853265]" name="verifyThatUserShouldLoginAndLogoutSuccessfully" class="com.tutorialsninja.testsuite.AccountRegisterPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AccountRegisterPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.testsuite.AccountRegisterPageTest@5e853265]" name="verifyThatUserShouldLoginAndLogoutSuccessfully" class="com.tutorialsninja.testsuite.AccountRegisterPageTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="tutorialsninja-sw5-dhara" duration-ms="11570" started-at="2023-05-08T15:03:17 BST" finished-at="2023-05-08T15:03:28 BST">
+      <class name="com.tutorialsninja.testsuite.AccountRegisterPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.tutorialsninja.testsuite.AccountRegisterPageTest@5e853265]" name="setUp" is-config="true" duration-ms="5844" started-at="2023-05-08T15:03:17 BST" finished-at="2023-05-08T15:03:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.tutorialsninja.testsuite.AccountRegisterPageTest@5e853265]" name="inIt" is-config="true" duration-ms="31" started-at="2023-05-08T15:03:23 BST" finished-at="2023-05-08T15:03:23 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="FAIL" signature="verifyThatUserShouldLoginAndLogoutSuccessfully()[pri:0, instance:com.tutorialsninja.testsuite.AccountRegisterPageTest@5e853265]" name="verifyThatUserShouldLoginAndLogoutSuccessfully" duration-ms="5062" started-at="2023-05-08T15:03:23 BST" finished-at="2023-05-08T15:03:28 BST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5d5a70b3c4dbcdc093b82fb6cad40b6, actions {actions=[org.openqa.selenium.interactions.Sequence@2575f671]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61911}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61911/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5d5a70b3c4dbcdc093b82fb6cad40b6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=113.0.5672.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5d5a70b3c4dbcdc093b82fb6cad40b6, actions {actions=[org.openqa.selenium.interactions.Sequence@2575f671]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.63, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\dell\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61911}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61911/devtoo..., se:cdpVersion: 113.0.5672.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5d5a70b3c4dbcdc093b82fb6cad40b6
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+at com.tutorialsninja.utilities.Utility.mouseHoverToElementAndClick(Utility.java:260)
+at com.tutorialsninja.pages.HomePage.mouseHoverAndClickOnMyQAccountTab(HomePage.java:100)
+at com.tutorialsninja.testsuite.AccountRegisterPageTest.verifyThatUserShouldLoginAndLogoutSuccessfully(AccountRegisterPageTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on myAccountTab[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[@title='My Account']]]]>
+            </line>
+            <line>
+              <![CDATA[Select my account options[[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@id='top-links']//li[contains(@class,'open')]/ul/li], [[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@id='top-links']//li[contains(@class,'open')]/ul/li]]]]>
+            </line>
+            <line>
+              <![CDATA[Enter firstname[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-firstname]]]>
+            </line>
+            <line>
+              <![CDATA[Enter lastname[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-lastname]]]>
+            </line>
+            <line>
+              <![CDATA[Enter email[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-email]]]>
+            </line>
+            <line>
+              <![CDATA[Enter Telephone[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-telephone]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-password]]]>
+            </line>
+            <line>
+              <![CDATA[Enter confirm password[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> id: input-confirm]]]>
+            </line>
+            <line>
+              <![CDATA[Select subscription option[[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //fieldset[3]//input], [[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //fieldset[3]//input]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on privacy policy[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@class = 'buttons']//input[@name='agree']]]]>
+            </line>
+            <line>
+              <![CDATA[Click on continue button[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //div[@class = 'buttons']//input[@value='Continue']]]]>
+            </line>
+            <line>
+              <![CDATA[Get account created text[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //h1[contains(text(),'Your Account Has Been Created!')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on continueButton[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[contains(text(),'Continue')]]]]>
+            </line>
+            <line>
+              <![CDATA[Click on myAccountTab[[ChromeDriver: chrome on WINDOWS (e5d5a70b3c4dbcdc093b82fb6cad40b6)] -> xpath: //a[@title='My Account']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThatUserShouldLoginAndLogoutSuccessfully -->
+      </class> <!-- com.tutorialsninja.testsuite.AccountRegisterPageTest -->
+    </test> <!-- tutorialsninja-sw5-dhara -->
+  </suite> <!-- Default Suite -->
+</testng-results>
